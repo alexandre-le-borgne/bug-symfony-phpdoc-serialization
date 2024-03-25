@@ -1,0 +1,1 @@
+# bug-symfony-phpdoc-serialization
