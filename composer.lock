@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7b9d2c1184912da63daacef3320d9f3",
+    "content-hash": "0de55ea01b0c3af98383cd1284867859",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -3385,16 +3385,16 @@
         },
         {
             "name": "symfony/property-access",
-            "version": "v7.0.4",
+            "version": "7.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-access.git",
-                "reference": "44e3746d4de8d0961a44ee332c74dd0918266127"
+                "reference": "333cfc88668fc1bac29065a24082195ab4631636"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/property-access/zipball/44e3746d4de8d0961a44ee332c74dd0918266127",
-                "reference": "44e3746d4de8d0961a44ee332c74dd0918266127",
+                "url": "https://api.github.com/repos/symfony/property-access/zipball/333cfc88668fc1bac29065a24082195ab4631636",
+                "reference": "333cfc88668fc1bac29065a24082195ab4631636",
                 "shasum": ""
             },
             "require": {
@@ -3441,7 +3441,7 @@
                 "reflection"
             ],
             "support": {
-                "source": "https://github.com/symfony/property-access/tree/v7.0.4"
+                "source": "https://github.com/symfony/property-access/tree/7.1"
             },
             "funding": [
                 {
@@ -3457,7 +3457,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-16T13:44:10+00:00"
+            "time": "2024-03-19T11:57:44+00:00"
         },
         {
             "name": "symfony/property-info",
@@ -4317,7 +4317,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "symfony/property-access": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
